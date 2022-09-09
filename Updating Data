@@ -1,0 +1,26 @@
+Update student1
+
+set Major = 'Bio'
+where Major = 'bio';
+
+Update student1
+
+set Major = 'Not Yet'
+where Major = 'unselected';
+
+Update student1
+
+set Name = 'Abir'
+where Name = 'Hasan';
+
+Update student1
+set Major = 'Programming'
+Where Major ='Programming ';
+
+Update student1
+set Major = 'Java'
+Where Major ='Programming' OR Major = 'Not Yet';
+
+Update student1
+set Name ='Badhon' , Major ='Cs'
+where Student_ID =4;
