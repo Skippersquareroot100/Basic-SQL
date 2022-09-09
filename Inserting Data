@@ -1,0 +1,9 @@
+Insert into student1 values(1, 'Mainul','Math');
+
+Insert into student1 values(2, 'Hasan', 'Biology');
+
+Insert into student1(Name) values('Manik');
+
+Insert into student1(Student_ID ,  Name) values(4, 'Maruf');
+
+Insert into student1(Name, Major) values('Anik','Programming ');
