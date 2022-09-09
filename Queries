@@ -1,0 +1,73 @@
+Select * From student1;
+
+Select Name ,Major
+From student1;
+
+Select * From student1;
+
+Select Student1.Name ,Student1.Major
+From student1
+Order by Name;
+
+Select Student1.Name ,Student1.Major
+From student1
+Order by Name DESC;
+
+Select Student1.Name ,Student1.Major
+From student1
+Order by Name ASC;
+
+Select * From student1
+Order By Student_ID ASC;
+
+Select * From student1
+Order By Student_ID DESC;
+
+Select *
+From student1
+limit 3;
+
+Select Student1.Name ,Student1.Major
+From student1
+limit 3;
+
+ Select *
+From student1
+Order by Student_ID DESC
+limit 3;
+
+ Select *
+From student1
+Order by Student_ID ASC
+limit 5;
+
+Select *
+From student1
+where major='Java';
+
+Select Name , Major
+From Student1
+where major='Java' or major ='Cs'
+Order by Major ASC;
+
+Select *
+From Student1
+where Student_ID<=4 and Name <> 'Abir';
+
+Select *
+From Student1
+where Student_ID<=2 or Major= 'Java';
+
+Select *
+From Student1
+where name in('Anik','Abir','Badhon')
+order by Name Asc;
+
+Select *
+From Student1
+where Major in('Java','Bio','Cs')
+order by Name Asc;
+
+Select *
+From Student1
+where Name in('Manik','Abir') or Major in('Java') and Student_ID >1;
