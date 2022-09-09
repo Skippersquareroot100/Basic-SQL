@@ -1,0 +1,6 @@
+Delete from student1;
+Delete from student1
+where Student_ID =1;
+
+Delete from student1
+where Name ='Anik' and Major= 'Java';
