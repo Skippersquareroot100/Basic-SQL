@@ -1,0 +1,13 @@
+CREATE TABLE Student1 (
+    Student_ID int Auto_increment ,
+    Name varchar(15) not null,
+    Major varchar(15) Default('unselected'),
+    PRIMARY KEY (Student_ID)
+);
+DESCRIBE Student1;
+
+Alter Table student1 add gpa Decimal (2 , 2);
+
+ALTER Table student1 drop column gpa;
+
+DROP Table student1;
